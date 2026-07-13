@@ -14,4 +14,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirna
+      "@": path.resolve(__dirname, "src"),
+    },
+  },
+});
