@@ -31,7 +31,7 @@ export const SITE_CONFIG = {
 
   // TICKET SETTINGS
   ticket: {
-    imagePath: '/images/default-ticket.png',
+    imagePath: 'public/images/default-ticket.png',
 
     // BOX SETTINGS (The frame)
     boxWidth: 380,             // Width of the frame
@@ -58,7 +58,7 @@ export const SITE_CONFIG = {
 
   // LOGO SETTINGS
   logo: {
-    imagePath: '/images/default-logo.png',
+    imagePath: 'public/images/default-logo.png',
 
     // BOX SETTINGS (The container)
     boxWidth: 195,             // Width of the box
