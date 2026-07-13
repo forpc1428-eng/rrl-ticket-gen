@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "deploy-fix": "npm run build && cd dist && git init && git add . && git commit -m 'deploy' && git push -f https://github.com/forpc1428-eng/rrl-ticket-gen.git HEAD:gh-pages && cd .."
+    "deploy-fix": "npm run build && cd dist && git init && git add . && git commit -m \"deploy\" || git add . && git push -f https://github.com/forpc1428-eng/rrl-ticket-gen.git master:gh-pages && cd .."
   },
   "dependencies": {
     "@types/uuid": "^10.0.0",
